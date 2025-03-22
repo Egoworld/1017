@@ -15,21 +15,20 @@
         }
 
         .title {
-<div id="container">
-    <span id="text1"></span>
-    <span id="text2"></span>
-</div>
+/* bigshot one font */
+@import url(https://fonts.googleapis.com/css?family=Cabin+Condensed);
 
-<svg id="filters">
-    <defs>
-        <filter id="threshold">
-            <feColorMatrix in="SourceGraphic" type="matrix" values="1 0 0 0 0
-                  0 1 0 0 0
-                  0 0 1 0 0
-                  0 0 0 255 -140" />
-        </filter>
-    </defs>
-</svg>
+body,html{margin:0;padding:0;height:100%;}
+body{
+  background: #f1f1f1;
+  background-size:cover;
+  font-family: 'Cabin Condensed', sans-serif;
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  align-items:center;
+}
+svg{font-weight:bold;max-width:600px;height:100%;}
         }
 
         .divider {
