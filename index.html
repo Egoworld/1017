@@ -15,10 +15,21 @@
         }
 
         .title {
-            font-size: 3rem;
-            margin-top: 20px;
-            animation: montserrat 1.5s infinite;
-            text-shadow: 0 0 10px red, 0 0 20px crimson, 0 0 30px darkred;
+<div id="container">
+    <span id="text1"></span>
+    <span id="text2"></span>
+</div>
+
+<svg id="filters">
+    <defs>
+        <filter id="threshold">
+            <feColorMatrix in="SourceGraphic" type="matrix" values="1 0 0 0 0
+                  0 1 0 0 0
+                  0 0 1 0 0
+                  0 0 0 255 -140" />
+        </filter>
+    </defs>
+</svg>
         }
 
         .divider {
